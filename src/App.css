@@ -5,6 +5,11 @@
   scroll-behavior: smooth;
 }
 
+a {
+  color: unset;
+  text-decoration: none;
+}
+
 body {
   background: var(--color-bg);
 }
