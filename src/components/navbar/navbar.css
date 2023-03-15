@@ -19,3 +19,11 @@
   width: 62px;
   height: 16px;
 }
+
+.gpt3__navbar-links_container {
+  display: flex;
+}
+.gpt3__navbar-links_container p {
+  color: #fff;
+  font-family: var(--font-family);
+}
