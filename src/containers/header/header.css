@@ -1,0 +1,28 @@
+.header__container {
+  display: flex;
+  padding: 2rem 6rem;
+}
+
+.header__content-description {
+  color: var(--color-text);
+}
+
+.header__illustration {
+  max-width: 50%;
+  height: auto;
+}
+
+.header__illustration img {
+  width: 100%;
+}
+
+.header__content-signup-stat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__content-signup-stat p {
+  color: #fff;
+  font-size: smaller;
+}
