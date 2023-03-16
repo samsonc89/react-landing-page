@@ -17,12 +17,11 @@ const Header = () => {
           asked of.
         </p>
         <form>
-          <label>
-            <input type="text" name="name" placeholder="Your Email" />
-          </label>
-          <input type="submit" value="Submit" />
+          <input type="text" name="name" placeholder="Your Email Address" />
+
+          <button type="button"> Get Started</button>
         </form>
-        <div className="header__content-signup-stat">
+        <div className="header__content__signup-stat">
           <img src={people} alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
