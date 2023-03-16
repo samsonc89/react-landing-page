@@ -3,10 +3,6 @@
   padding: 2rem 6rem;
 }
 
-.header__content-description {
-  color: var(--color-text);
-}
-
 .header__illustration {
   max-width: 50%;
   height: auto;
@@ -16,13 +12,68 @@
   width: 100%;
 }
 
-.header__content-signup-stat {
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__content-heading {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+  letter-spacing: -0.04em;
+}
+
+.header__content-description {
+  width: 85%;
+  color: var(--color-text);
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.header__content button {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 1rem 1.5rem;
+  background-color: #ff4820;
+  border-radius: 0px 5px 5px 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.header__content input {
+  width: 70%;
+  height: 100%;
+  background: #052d56;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 20px;
+  line-height: 27px;
+  border: 0;
+}
+
+.header__content__signup-stat {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.header__content-signup-stat p {
+.header__content__signup-stat p {
   color: #fff;
   font-size: smaller;
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 550px) {
 }
