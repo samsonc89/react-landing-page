@@ -16,11 +16,10 @@ const Header = () => {
           alteration boisterous the attachment. Party we years to order allow
           asked of.
         </p>
-        <form>
-          <input type="text" name="name" placeholder="Your Email Address" />
-
+        <div className="header__content__signup-form">
+          <input type="email" placeholder="Your Email Address" />
           <button type="button"> Get Started</button>
-        </form>
+        </div>
         <div className="header__content__signup-stat">
           <img src={people} alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
