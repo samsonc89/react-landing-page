@@ -20,7 +20,7 @@
 
 .header__content-heading {
   font-weight: 800;
-  font-size: 62px;
+  font-size: 4rem;
   line-height: 75px;
   /* or 121% */
   letter-spacing: -0.04em;
@@ -32,7 +32,9 @@
   font-size: 20px;
   line-height: 27px;
 }
-
+.header__content__signup-form {
+  display: flex;
+}
 .header__content button {
   color: #fff;
   font-family: var(--font-family);
@@ -49,6 +51,7 @@
 }
 
 .header__content input {
+  color: #fff;
   width: 70%;
   height: 100%;
   background: #052d56;
@@ -56,6 +59,7 @@
   font-size: 20px;
   line-height: 27px;
   border: 0;
+  padding: 1rem;
 }
 
 .header__content__signup-stat {
@@ -70,9 +74,50 @@
 }
 
 @media screen and (max-width: 1050px) {
-}
+  .header__content {
+    gap: 10px;
+  }
 
+  .header__content-heading {
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+  .header__content-description,
+  .header__content input,
+  .header__content button {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .header__content button {
+    padding: 0.5rem 1rem;
+    width: 50%;
+  }
+
+  .header__content input {
+    width: 90%;
+    height: 50px;
+  }
+
+  .header__content__signup-form {
+    flex-direction: column;
+  }
+  .header__content__signup-stat {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 700px) {
+  /* .header__content-description {
+
+    }
+    
+    .header__content button {
+  
+    }
+    
+    .header__content input {
+    } */
 }
 
 @media screen and (max-width: 550px) {
