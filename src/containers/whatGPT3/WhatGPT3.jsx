@@ -17,18 +17,23 @@ const WhatGPT3 = () => {
           <a href="">Explore The Library</a>
         </p>
       </div>
-      <Feature
-        title="Chatbots"
-        text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "
-      />
-      <Feature
-        title="Knowledgebase"
-        text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
-      />
-      <Feature
-        title="Education"
-        text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
-      />
+      <div className="wgpt3__features-container">
+        <Feature
+          className="wgpt3__features-feature"
+          title="Chatbots"
+          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "
+        />
+        <Feature
+          className="wgpt3__features-feature"
+          title="Knowledgebase"
+          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+        />
+        <Feature
+          className="wgpt3__features-feature"
+          title="Education"
+          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+        />
+      </div>
     </div>
   );
 };
