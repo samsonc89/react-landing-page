@@ -109,6 +109,9 @@
 }
 
 @media screen and (max-width: 550px) {
+  .header__content__signup-stat {
+    flex-direction: column;
+  }
   .header__content-heading {
     font-weight: 800;
     font-size: 3rem;
