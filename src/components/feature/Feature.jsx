@@ -8,7 +8,9 @@ const Feature = ({ title, text }) => {
         <div className="feature__title-bar"></div>
         <h2 className="feature__title-title">{title}</h2>
       </div>
-      <div className="feature__text">{text}</div>
+      <div className="feature__text">
+        <p>{text}</p>
+      </div>
     </div>
   );
 };
