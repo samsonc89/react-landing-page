@@ -32,3 +32,20 @@
 .wgpt3__features-feature {
   flex-direction: column;
 }
+
+@media screen and (max-width: 1050px) {
+  .wgpt3__features-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
