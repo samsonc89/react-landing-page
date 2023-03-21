@@ -26,3 +26,9 @@
   flex: 1;
   color: #ff8a71;
 }
+.wgpt3__features-container {
+  display: flex;
+}
+.wgpt3__features-feature {
+  flex-direction: column;
+}
