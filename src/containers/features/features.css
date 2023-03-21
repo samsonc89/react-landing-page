@@ -1,0 +1,11 @@
+.features__container {
+  display: flex;
+}
+
+.features__heading__container {
+  display: flex;
+  flex-direction: column;
+}
+.features__heading__container p {
+  color: var(--color-subtext);
+}
