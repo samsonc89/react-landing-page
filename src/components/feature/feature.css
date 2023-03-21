@@ -1,8 +1,11 @@
 .feature__container {
+  margin: 2rem;
   display: flex;
+  justify-content: space-between;
 }
 
 .feature__title-container {
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
@@ -21,6 +24,7 @@
 }
 
 .feature__text {
+  flex: 2;
   display: flex;
   align-items: center;
   color: #81afdd;
