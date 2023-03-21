@@ -87,14 +87,13 @@
   }
 
   .header__content {
-    gap: 10px;
+    gap: 20px;
   }
 
-  .header__content-heading {
-    font-size: 3rem;
-    line-height: 3.2rem;
+  .header__content-description {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
   }
-  .header__content-description,
   .header__content input,
   .header__content button {
     font-size: 16px;
