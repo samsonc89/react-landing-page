@@ -1,0 +1,27 @@
+.wgpt3__container {
+  background: rgb(4, 44, 84);
+  background: linear-gradient(
+    311deg,
+    rgba(27, 137, 222, 1),
+    rgb(4, 56, 108) 10% 90%,
+    rgba(27, 137, 222, 1)
+  );
+  padding: 2rem;
+}
+
+.wgpt3__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wgpt3__heading h2 {
+  flex: 2;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+.wgpt3__heading p {
+  text-align: end;
+  flex: 1;
+  color: #ff8a71;
+}
