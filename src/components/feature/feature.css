@@ -1,0 +1,29 @@
+.feature__container {
+  display: flex;
+}
+
+.feature__title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__title-bar {
+  width: 38px;
+  height: 3px;
+  background: var(--gradient-bar);
+}
+
+.feature__title-title {
+  color: #fff;
+  background: none;
+  font-size: 24px;
+  line-height: 75px;
+}
+
+.feature__text {
+  display: flex;
+  align-items: center;
+  color: #81afdd;
+  font-size: 16px;
+  line-height: 30px;
+}
