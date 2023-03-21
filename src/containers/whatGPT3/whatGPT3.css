@@ -10,6 +10,7 @@
 }
 
 .wgpt3__heading {
+  margin: 6rem 1rem;
   display: flex;
   justify-content: space-between;
 }
