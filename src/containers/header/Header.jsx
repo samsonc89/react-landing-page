@@ -5,7 +5,7 @@ import people from "../../assets/people.png";
 
 const Header = () => {
   return (
-    <div className="header__container">
+    <div className="header__container section_padding">
       <div className="header__content">
         <h1 className="header__content-heading gradient__text">
           Let's Build Something amazing with GPT-3 Open AI
