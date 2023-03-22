@@ -42,10 +42,18 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .possibility__container {
+    margin: 0 2rem;
+    gap: 2rem;
+  }
+
+  .possibility__text__container {
+    margin-right: 2rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
 }
