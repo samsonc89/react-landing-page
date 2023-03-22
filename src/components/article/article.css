@@ -1,0 +1,38 @@
+.article__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__image {
+  height: 40%;
+  /* max-width: 100%; */
+}
+.article__image img {
+  height: 100%;
+  width: 100%;
+}
+
+.article__description {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  color: #fff;
+  background: #042c54;
+  padding: 2rem 1.5rem;
+}
+
+.article__description-title {
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  /* or 121% */
+}
+.article__description p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 36px;
+}
+
+.article__description-link {
+  margin-top: auto;
+}
