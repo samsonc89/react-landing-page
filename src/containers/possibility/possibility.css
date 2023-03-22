@@ -1,5 +1,6 @@
 .possibility__container {
   display: flex;
+  margin: 0 5rem;
 }
 .possibility__image {
   max-width: 50%;
@@ -14,6 +15,7 @@
   justify-content: flex-end;
   gap: 1.5rem;
   padding-bottom: 2rem;
+  margin-right: 7rem;
 }
 
 .possibility__text h1 {
