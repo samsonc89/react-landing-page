@@ -5,7 +5,7 @@ import { blog01, blog02, blog03, blog04, blog05 } from "../../assets";
 
 const Blog = () => {
   return (
-    <div className="blog__container section__padding">
+    <div className="blog__container section__padding" id="blog">
       <div className="blog__heading">
         <h1 className="gradient__text">
           A lot is happening, <br />
