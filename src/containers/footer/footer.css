@@ -1,13 +1,23 @@
 .footer__container {
   text-align: center;
   background: var(--color-footer);
+  padding: 10rem 10rem 2rem;
 }
 .footer__container p {
   font-size: 12px;
   line-height: 14px;
   color: #fff;
 }
-
+.footer__container button {
+  width: 218px;
+  height: 65px;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  border: 1px solid #ffffff;
+  margin-top: 5rem;
+}
 .footer__heading p {
   margin: 0 10rem;
   font-weight: 800;
@@ -21,10 +31,28 @@
 .footer__links-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 8rem;
+  text-align: start;
 }
 
 .footer__links-container h4 {
   color: #fff;
+}
+
+.footer__links-container p {
+  margin-top: 2rem;
+}
+
+.footer__links-section {
+  width: 10%;
+}
+
+.footer__links-logo__container {
+  width: 15%;
+}
+
+.copyright {
+  margin-top: 5rem;
 }
 @media screen and (max-width: 1050px) {
 }
