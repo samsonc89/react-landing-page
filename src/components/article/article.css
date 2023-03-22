@@ -36,3 +36,14 @@
 .article__description-link {
   margin-top: auto;
 }
+
+@media screen and (max-width: 700px) {
+  .article__description h2 {
+    font-size: 16px;
+    line-height: 24px;
+    /* or 157% */
+  }
+}
+
+@media screen and (max-width: 500px) {
+}

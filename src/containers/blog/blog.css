@@ -29,10 +29,32 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .blog__heading {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 700px) {
+  .blog__heading {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    width: 100%;
+  }
+  .blog__articles__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .blog__articles__container :first-child h2 {
+    font-size: 22.11px;
+    line-height: 27px;
+    /* or 121% */
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .blog__articles__container {
+    display: flex;
+    flex-direction: column;
+  }
 }
