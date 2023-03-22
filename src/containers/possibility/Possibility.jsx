@@ -4,7 +4,7 @@ import possibility from "../../assets/possibility.png";
 
 const Possibility = () => {
   return (
-    <div className="possibility__container section__padding">
+    <div className="possibility__container section__padding" id="possibility">
       <div className="possibility__image">
         <img src={possibility} alt="possibility" />
       </div>

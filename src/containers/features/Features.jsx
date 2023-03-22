@@ -4,7 +4,7 @@ import "./features.css";
 
 const Features = () => {
   return (
-    <div className="features__container section__padding">
+    <div className="features__container section__padding" id="features">
       <div className="features__heading__container">
         <h1 className="gradient__text">
           The Future is Now and You Just Need To Realize It. Step into Future
