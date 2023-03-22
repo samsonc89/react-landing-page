@@ -17,7 +17,9 @@ const Article = ({
         <div className="article__description-date">
           <p>{blogDate}</p>
         </div>
-        <div className="article__description-title">{blogTitle}</div>
+        <div>
+          <h2>{blogTitle}</h2>
+        </div>
         <div className="article__description-link">
           <p>
             <a href={blogLink}>Read Full Article</a>{" "}
