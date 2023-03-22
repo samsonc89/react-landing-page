@@ -1,3 +1,21 @@
+.possibility__container {
+  display: flex;
+}
+.possibility__image {
+  max-width: 50%;
+}
+.possibility__image img {
+  width: 100%;
+}
+
+.possibility__text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
 .possibility__text h1 {
   font-weight: 800;
   font-size: 34px;
@@ -19,4 +37,13 @@
 
 .possibility__text-early-access-2 {
   color: var(--color-subtext);
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 550px) {
 }
