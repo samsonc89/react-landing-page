@@ -1,3 +1,14 @@
+.possibility__text h1 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  /* or 132% */
+}
+.possibility__text p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
 .possibility__text-early-access-1 {
   color: #71e5ff;
 }
