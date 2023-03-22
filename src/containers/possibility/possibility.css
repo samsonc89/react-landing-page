@@ -1,0 +1,11 @@
+.possibility__text-early-access-1 {
+  color: #71e5ff;
+}
+
+.possibility__text-description {
+  color: var(--color-text);
+}
+
+.possibility__text-early-access-2 {
+  color: var(--color-subtext);
+}
