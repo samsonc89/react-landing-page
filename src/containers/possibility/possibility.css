@@ -18,13 +18,13 @@
   margin-right: 7rem;
 }
 
-.possibility__text h1 {
+.possibility__text__container h1 {
   font-weight: 800;
   font-size: 34px;
   line-height: 45px;
   /* or 132% */
 }
-.possibility__text p {
+.possibility__text__container p {
   font-size: 16px;
   line-height: 30px;
 }
@@ -53,7 +53,20 @@
 }
 
 @media screen and (max-width: 700px) {
+  .possibility__container {
+    flex-direction: column;
+  }
+  .possibility__image {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .possibility__text__container {
+    gap: 0.8rem;
+  }
+  .possibility__text__container p {
+    font-size: 14px;
+    line-height: 26px;
+  }
 }
