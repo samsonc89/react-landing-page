@@ -4,11 +4,11 @@ import possibility from "../../assets/possibility.png";
 
 const Possibility = () => {
   return (
-    <div className="possibility__container">
+    <div className="possibility__container section__padding section__margin">
       <div className="possibility__image">
         <img src={possibility} alt="possibility" />
       </div>
-      <div className="possibility__text">
+      <div className="possibility__text__container">
         <p className="possibility__text-early-access-1">
           Request Early Access to Get Started
         </p>
