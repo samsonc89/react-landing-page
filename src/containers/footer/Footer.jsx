@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer__container section__padding">
-      <div className="footer__heading section__margin">
+      <div className="footer__heading">
         <p className="gradient__text">
           Do you want to step in to the future before others
         </p>
