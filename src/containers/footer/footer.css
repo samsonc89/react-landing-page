@@ -1,4 +1,15 @@
-.footer__heading {
+.footer__container {
+  text-align: center;
+  background: var(--color-footer);
+}
+.footer__container p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+}
+
+.footer__heading p {
+  margin: 0 10rem;
   font-weight: 800;
   font-size: 62px;
   line-height: 75px;
@@ -8,13 +19,13 @@
 }
 
 .footer__links-container {
-  color: #fff;
-}
-.footer__links-container p {
-  font-size: 12px;
-  line-height: 14px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.footer__links-container h4 {
+  color: #fff;
+}
 @media screen and (max-width: 1050px) {
 }
 
