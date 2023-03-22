@@ -22,7 +22,7 @@
 .cta__container button {
   width: 189.14px;
   height: 59.4px;
-
+  cursor: pointer;
   background: #000000;
   border-radius: 40px;
   border: none;
